@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 25px;
+    height: 30px;
+}
+.dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid black;
+
+    padding: 7px 7px;
+    background-color: inherit;
+    font-family: inherit;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 12px;
+}
+.dropdown-content select,
+.dropdown-content label {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.dropdown-content.show {
+    display: block;
+}

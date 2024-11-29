@@ -1,0 +1,41 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .grouping-select {
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .columns {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .column {
+    flex: 1;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    padding: 10px;
+    /* background: #f9f9f9; */
+  }
+  
+  .column h3 {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  
+  /* .card {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  } */
+  
